@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 70vh;
+    padding-top: 10vh;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+h2 {
+    color: #007BFF;
+    font-size: 40px;
+    text-align: center;
+}
+
+.recent {
+    color: #555555;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.nav-link:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border: 2px solid #3333;
+    border-radius: 30px;
+    padding: 30px;
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+}
+
+tr {
+    height: 25px;
+}
+
+thead {
+    line-height: 50px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    width: 45%;
+    color: #fff;
+    margin: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+button.add {
+    background-color: #4CAF50;
+    color: white;
+}
+
+button.deduct {
+    background-color: #FF5722;
+    color: white;
+}
+
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #007BFF;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+input[type="number"],
+input[type="text"],
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button.add-trans {
+    width: 80vw;
+    background-color: #4CAF50;
+    margin: 20px;
+}
+button.detuct-trans{
+    width: 80vw;
+    background-color: #FF5722;
+    margin: 20px;
+}
+
+
+h1 {
+    color: #33333;
+    padding-left: 20px;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-y: scroll;
+}
+a.back {
+    color: #333;
+    font-weight: bold;
+    display: flex
+;
+    padding: 10px;
+}
+
